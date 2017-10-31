@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Ошибка 404 - Данная страница не найдена</title>
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#000">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#000">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+    <style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+</head>
+
+<body>
+
+    <section class="page_nohome" >
+        <div class="top_bar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-9 col-md-7 col-lg-2 col-lg-offset-1">
+                        <a href="/" class="logo">
+                            <img src="img/Logo.png" alt="Логотип">
+                        </a>
+                        <a href="#" class="gorod">Краснодар</a>
+                    </div>
+                    <div class="col-lg-5"></div>
+                    <div class="col-xs-3 col-md-5 col-lg-3">
+                        <a href="#callback-form" class="callback hidden-xs popup-with-move-anim">Заказать обратный звонок</a>
+                        <a href="tel:8(988)6799999" class="callback hidden-xs">8 (988) 679 99 99</a>
+                        <a href="#callback-form" class="callback_mobile popup-with-move-anim hidden-sm hidden-md hidden-lg"><i class="fa fa-mobile" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="col-lg-1"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="title_header">
+                    <div class="col-lg-10">
+                        <h1>Ошибка 404</h1>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="decr">
+                            данная страница не найдена
+                            <small>Возможно введен некорректный адрес или страница была удалена</small>
+                        </div>
+                        <a href="/" class="btn">Вернуться на главную</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="social_link ">
+            <li><a href="#"><i class="fa fa-odnoklassniki" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        </ul>
+        <div class="footer_nohome">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-2 col-lg-offset-1">
+                    </div>
+                    <div class="col-lg-5">
+                        <ul class="footer_menu">
+                            <li><a href="#">Кабинет партнера</a></li>
+                            <li><a href="#">Политика конфиденциальности</a></li>
+                            <li><a href="#">Сделано в <span class="madein" >MINDSELL</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                    </div>
+                    <div class="col-lg-1"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <form id="small-dialog" action="" method="post" class="form zoom-anim-dialog mfp-hide">
+
+        <div class="form_title">
+            Записаться в академию
+        </div>
+
+        <!-- Hidden Required Fields -->
+            <input type="hidden" name="project_name" value="Site Name">
+            <input type="hidden" name="admin_email" value="admin@mail.com">
+            <input type="hidden" name="form_subject" value="Form Subject">
+        <!-- END Hidden Required Fields -->
+
+        <div class="input_group">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <input type="text" name="name" placeholder="Введите имя" required>
+        </div>
+        <div class="input_group">
+            <i class="fa fa-mobile" aria-hidden="true"></i>
+            <input type="phone" name="phone" placeholder="Введите телефон" required>
+        </div>
+        <button class="btn">ЗАПИСАТЬСЯ</button>
+    </form>
+
+    <form id="callback-form" class="form zoom-anim-dialog mfp-hide">
+        <div class="form_title">
+            Заказать обратный звонок
+        </div>
+        <!-- Hidden Required Fields -->
+            <input type="hidden" name="project_name" value="Site Name">
+            <input type="hidden" name="admin_email" value="admin@mail.com">
+            <input type="hidden" name="form_subject" value="Form Subject">
+        <!-- END Hidden Required Fields -->
+
+        <div class="input_group">
+            <i class="fa fa-mobile" aria-hidden="true"></i>
+            <input type="phone" name="phone" placeholder="Введите телефон" required>
+        </div>
+        <button class="btn">отправить</button>
+    </form>
+
+    <link rel="stylesheet" href="css/main.min.css">
+    <script src="js/scripts.min.js"></script>
+
+</body>
+</html>
